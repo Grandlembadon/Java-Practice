@@ -20,5 +20,9 @@ public class Practice {
 
         return front + back;
     }
+
+
+    public void methodology(String str) {
+    }
 }
 
