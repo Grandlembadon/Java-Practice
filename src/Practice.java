@@ -24,7 +24,8 @@ public class Practice {
 
     public void methodology(String str, String str2) {
         if (str == str2){
-            
+            System.out.println("These two strings are equal.");
+
         }
     }
 }
