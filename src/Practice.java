@@ -5,16 +5,20 @@ public class Practice {
         }
         return false;
     }
+
     public int diff21(int n) {
-        if (n <= 21){
+        if (n <= 21) {
             return (21 - n);
-        }else{
+        } else {
             return (n - 21) * 2;
         }
     }
 
     public String missingChar(String str, int n) {
-      
+        String front = str.substring(0, n);
+        String back = str.substring(n + 1, str.length());
 
-
+        return front + back;
+    }
 }
+
