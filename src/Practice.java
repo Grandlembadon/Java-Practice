@@ -22,7 +22,10 @@ public class Practice {
     }
 
 
-    public void methodology(String str) {
+    public void methodology(String str, String str2) {
+        if (str == str2){
+            
+        }
     }
 }
 
