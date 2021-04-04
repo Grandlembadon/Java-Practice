@@ -13,5 +13,8 @@ public class Practice {
         }
     }
 
+    public String missingChar(String str, int n) {
+      
+
 
 }
